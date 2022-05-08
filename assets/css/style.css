@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #adadad;
+    --secondary-color: #64485c;
+    --tertiary-color: #501b1d;
+    --quaternary-color: #2e1114;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +18,7 @@
 
  /* header/navigation tags */
 header {
-    background-color: #501b1d;
+    background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
     padding: 20px 35px;
 }
 
@@ -82,25 +89,27 @@ section {
 
 
 #son {
-    width: 40%;
-    height: 500px;
+    width: 30%;
+    height: 400px;
     background-image: url('../images/son-2nd-bday.jpg');
     background-position-y: 43%;
     background-size: cover;
 }
 
 #us {
-    width: 40%;
-    height: 500px;
+    width: 30%;
+    height: 400px;
     background-image: url('../images/pa-and-I.jpg');
     background-position: 90%;
     background-size: cover;
 
 }
-
 /* about me styles end */
 
-
+#my-work {
+    text-decoration: none;
+    list-style: none;
+}
 
 
 
@@ -110,7 +119,7 @@ footer {
     padding: 20px;
     width: 100%;
     color: #adadad;
-    background-color: #501b1d;
+    background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
 }
 
 footer h2 {
