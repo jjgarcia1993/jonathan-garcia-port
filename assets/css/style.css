@@ -82,7 +82,7 @@ section {
 /* about me styles start */
 
 .me {
-    margin: 20px 20px;
+    margin: 0 20px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -126,7 +126,7 @@ section {
 
 .work {
     display: flex;
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
     flex-direction: column;
 }
@@ -137,8 +137,8 @@ section {
     text-align: center;
     color: var(--primary-color);
     list-style: none;
-    margin: 20px 50px;
-    padding: 40px;
+    margin: auto 60px;
+    padding: 20px;
     background-image: radial-gradient(var(--quinary-color), var(--secondary-color));
 }
 
@@ -167,11 +167,11 @@ section {
     text-decoration: none;
     list-style: none;
     text-align:left;
-    font-size: 22px;
-    margin: 20px 20px;
+    font-size: 18px;
+    margin: 0 20px 20px;
     padding: 20px;
-    color: black;
-    background-image: radial-gradient(var(--primary-color), var(--secondary-color));
+    color: var(--primary-color);
+    background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
 }
 
 .contact-text {
