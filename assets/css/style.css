@@ -114,6 +114,7 @@ section {
 .list {
     text-align: left;
 }
+
 /* about me styles end */
 
 
@@ -160,7 +161,7 @@ section {
 .contact {
     text-decoration: none;
     list-style: none;
-    text-align:left;
+    text-align: left;
     font-size: 18px;
     margin: 0 20px 20px;
     padding: 20px;
