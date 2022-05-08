@@ -3,6 +3,7 @@
     --secondary-color: #64485c;
     --tertiary-color: #501b1d;
     --quaternary-color: #2e1114;
+    --quinary-color:#83677b;
   }
 
 * {
@@ -20,6 +21,9 @@
 header {
     background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
     padding: 20px 35px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 header h1 {
@@ -28,8 +32,6 @@ header h1 {
     color: #adadad;
     display: inline;
     margin: 0;
-    position: sticky;
-    top: 0;
 }
 
 header a {
@@ -63,8 +65,11 @@ section {
 
 /* hero styles start */
 .hero {
+    margin: 20px 80px;
+    padding: 20px;
     display: flex;
-    justify-content: center;
+
+    background-image: radial-gradient(var(--quinary-color), var(--secondary-color));
 }
 
 .hero-main {
@@ -78,8 +83,12 @@ section {
 /* about me styles start */
 
 #about-me {
+    margin: 20px 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
+    background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
+    color: var(--primary-color);
 }
 
 .about-text {
@@ -87,9 +96,13 @@ section {
     text-align: center;
 }
 
+.list {
+    text-align: left;
+}
+
 
 #son {
-    width: 30%;
+    width: 500px;
     height: 400px;
     background-image: url('../images/son-2nd-bday.jpg');
     background-position-y: 43%;
@@ -97,7 +110,7 @@ section {
 }
 
 #us {
-    width: 30%;
+    width: 600px;
     height: 400px;
     background-image: url('../images/pa-and-I.jpg');
     background-position: 90%;
@@ -106,12 +119,30 @@ section {
 }
 /* about me styles end */
 
+
+/* my work starts */
 #my-work {
     text-decoration: none;
     list-style: none;
+    margin: 20px 80px;
+    padding: 20px;
+    background-image: radial-gradient(var(--quinary-color), var(--secondary-color));
 }
 
+.my-work a {
+    text-decoration: none;
 
+}
+/* my work end */
+
+
+/* contact me starts */
+.contact {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 20px;
+    padding: 20px;
+}
 
 /* footer begins */
 footer {
