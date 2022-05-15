@@ -92,12 +92,14 @@ section {
 
 .son img {
     width: 300px;
-    height: 100%;
+    height: auto;
+    flex: 100%;
 }
 
 .us img {
     width: 800px;
-    height: 100%;
+    height: auto;
+    flex: 100%;
 }
 
 /* hero styles end */
@@ -191,4 +193,58 @@ footer {
 footer h2 {
     display: inline;
     font-size: 22px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+        flex: 100%;
+    }
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .me h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .contact {
+        flex: 0 100%;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
 }
