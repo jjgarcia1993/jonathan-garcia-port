@@ -54,11 +54,22 @@ header nav ul li a {
     font-size: 28px;
 }
 
+/* header/navigation tags end */
+
+
+/* hover start */
 a:hover {
     background-color: grey;
+    font-size: 32px;
 }
 
-/* header/navigation tags end */
+h2:hover {
+    background-color: grey;
+    font-size: 32px;
+}
+
+/* hover end */
+
 
 /* style all section tags */
 section {
@@ -70,7 +81,6 @@ section {
     margin: 20px 60px;
     padding: 20px;
     display: flex;
-
     background-image: radial-gradient(var(--quinary-color), var(--secondary-color));
 }
 
@@ -81,20 +91,18 @@ section {
 }
 
 .son img {
-    width: 250px;
-    height: 80%;
+    width: 300px;
+    height: 100%;
 }
 
 .us img {
-    width: 500px;
-    height: 80%;
+    width: 800px;
+    height: 100%;
 }
 
 /* hero styles end */
 
-
 /* about me styles start */
-
 .me {
     margin: 0 20px;
     padding: 20px;
@@ -102,7 +110,6 @@ section {
     justify-content: space-around;
     background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
     color: var(--primary-color);
-
 }
 
 .about-text {
@@ -121,7 +128,7 @@ section {
 /* my work starts */
 .work {
     display: flex;
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     flex-direction: column;
 }
@@ -148,15 +155,14 @@ section {
     margin: 20px 20px;
 }
 
-.horiseon img {
-    width: 60%;
+.rest img {
+    width: 50%;
     height: 50%;
     margin: 20px 20px;
+    flex-wrap: wrap;
 }
 
 /* my work end */
-
-
 /* contact me starts */
 .contact {
     text-decoration: none;
@@ -184,5 +190,5 @@ footer {
 
 footer h2 {
     display: inline;
-    font-size: 30px;
+    font-size: 22px;
 }
