@@ -21,6 +21,9 @@ body {
 header {
     background-image: radial-gradient(var(--tertiary-color), var(--quaternary-color));
     padding: 20px 35px;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
 }
 
 header h1 {
